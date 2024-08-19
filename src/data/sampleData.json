@@ -1,0 +1,54 @@
+[
+  {
+    "number": 1,
+    "key": 1,
+    "jobOfferId": 1,
+    "jobTitle": "DevOp",
+    "jobDescription": "bla bla",
+    "companyId": 1,
+    "faculty": "ICT",
+    "jobType": "intern",
+    "additionalInfos": "infos",
+    "jobLocation": "OnLine",
+    "approvalStatus": "approved"
+  },
+  {
+    "number": 2,
+    "key": 2,
+    "jobOfferId": 2,
+    "jobTitle": "DevOp",
+    "jobDescription": "bla bla",
+    "companyId": 2,
+    "faculty": "ICT",
+    "jobType": "intern",
+    "additionalInfos": "infos",
+    "jobLocation": "OnLine",
+    "approvalStatus": "approved"
+  },
+  {
+    "number": 3,
+    "key": 3,
+    "jobOfferId": 3,
+    "jobTitle": "DevOp",
+    "jobDescription": "bla bla",
+    "companyId": 3,
+    "faculty": "ICT",
+    "jobType": "intern",
+    "additionalInfos": "infos",
+    "jobLocation": "OnLine",
+    "approvalStatus": "pending"
+  },
+  {
+    "number": 4,
+    "key": 4,
+    "jobOfferId": 4,
+    "jobTitle": "DevOp",
+    "jobDescription": "bla bla",
+    "companyId": 4,
+    "faculty": "ICT",
+    "jobType": "intern",
+    "additionalInfos": "infos",
+    "jobLocation": "OnLine",
+    "approvalStatus": "pending"
+  }
+]

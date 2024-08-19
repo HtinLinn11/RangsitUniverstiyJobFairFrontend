@@ -1,0 +1,34 @@
+{
+  "jobFair": {
+    "mainTitle": "Rangsit University Job Fair System",
+    "title": "Rangsit University Innovation and Job Fair 2024",
+    "description": "​Rangsit University collaborates with leading companies from various industries to organize the RSU Innovation and Job Fair 2024. This event offers the best opportunities for students to network and find suitable career paths. Discover new dreams and opportunities at the University Job Fair. Get ready! Be a part of the RSU Innovation and Job Fair 2024 that will change your future. Our university presents a platform to meet and network with leading companies from various industries such as the Food and Beverage Industry, Real Estate and Construction, Healthcare and Medicine, Heavy Industry and Manufacturing, and the Hospitality and Tourism Industry. Whether you are an interested student or a graduate, we have many opportunities waiting for you."
+  },
+  "cardButton": {
+    "com": "Company",
+    "stu": "Student",
+    "aj": "Professor"
+  },
+  "commingSoon": {
+    "com": "Company Site Comming Soon!",
+    "stu": "Student Site Comming Soon!",
+    "aj": "Aj Site Comming Soon!"
+  },
+  "Company": {
+    "Main": {
+      "title": "Partner with Rangist University",
+      "description": "At Rangist University, we cultivate a dynamic learning environment that fosters intellectual curiosity, practical skills, and a commitment to excellence. Our exceptional students are eager to translate their academic foundation into real-world experience through internships, co-op programs, and graduate positions. By partnering with Rangist, your company gains access to a talented pool of qualified candidates poised to make a significant contribution to your organization. We offer a seamless recruitment process and ongoing support to ensure a successful integration of our students into your team. Invest in the future of your company explore how Rangist International College can be your strategic partner in building a thriving workforce."
+    }
+  },
+  "subMenu": {
+    "home": "Home",
+    "jobOffer": "Job Offer",
+    "jobApp": "Job Application",
+    "interview": "Interview",
+    "jobs": "Jobs",
+    "jobApprove": "Job Approve"
+  },
+  "Footer": {
+    "contact": "Contact Us"
+  }
+}
