@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Table, Tag } from "antd";
 import type { TableColumnsType } from "antd";
-import { getInterviewsByCompanyId, getUsersById, getApplicationsById, getJobOffersById, getJobOffersUnapprovedById } from '../../utils/apiCalls';
+import { getInterviewsByCompanyId, getUsersById, getApplicationsById, getJobOffersUnapprovedById } from '../../utils/apiCalls';
 
 interface DataType {
   _id?: any;

@@ -15,7 +15,7 @@ interface FileUploadParams {
 
 const GoogleDriveUploadForm: React.FC<FileUploadParams> = ({ jobOfferId, studentId, faculty }) => {
   const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
-  const [fileLink, setFileLink] = useState<string | null>(null);
+  const [_fileLink, setFileLink] = useState<string | null>(null);
   const [file, setFile] = useState<File | null>(null);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Tag, Button } from "antd";
+import { Table, Tag } from "antd";
 import type { TableColumnsType } from "antd";
 import { getJobOffersUnapprovedByCompanyId, getApplicationsByJobOfferId, getJobOffersUnapprovedById, getUsersById } from '../../utils/apiCalls';
 import InterviewForm from "../forms/company/interviewSubmission";
@@ -75,7 +75,7 @@ const columns: TableColumnsType<DataType> = [
   {
     title: "Action",
     key: "action",
-    render: (text: any, record: DataType) => (
+    render: (_text: any, record: DataType) => (
       <InterviewForm
         interviewData={{
           companyId: record.companyId,

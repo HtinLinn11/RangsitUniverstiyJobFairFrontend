@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Form, Select, notification, Modal } from 'antd';
+import { Button, Form, notification, Modal } from 'antd';
 import { approveJobOfferUnapprovedById } from '../../../utils/apiCalls';
-
-const { Option } = Select;
 
 const layout = {
   labelCol: { span: 8 },
@@ -17,7 +15,7 @@ const jobOfferForm: React.FC<{ jobOfferData: any }> = ({ jobOfferData }) => {
   const [form] = Form.useForm();
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const onFinish = async (values: any) => {
+  const onFinish = async (_values: any) => {
     const newJobOffer = {
         connectedId: jobOfferData.jobOfferId,
         faculty: jobOfferData.faculty,

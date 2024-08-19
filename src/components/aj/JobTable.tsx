@@ -67,7 +67,7 @@ const columns: TableColumnsType<DataType> = [
   {
     title: "Action",
     key: "action",
-    render: (text: any, record: DataType) => (
+    render: (_text: any, record: DataType) => (
       <JobOfferForm jobOfferData={{ jobTitle: record.jobTitle, faculty: record.faculty, jobDescription: record.jobDescription, jobOfferId: record.jobOfferId }} />
     ),
     width: "15%",
