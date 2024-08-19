@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Tag } from "antd";
+import { Table } from "antd";
 import type { TableColumnsType } from "antd";
 import { getJobOffersByFaculty, getUsersById } from '../../utils/apiCalls';
 import ApplicationButton from "../forms/student/applyJob";
@@ -68,7 +68,7 @@ const columns: TableColumnsType<DataType> = [
   {
     title: "Action",
     key: "action",
-    render: (text: any, record: DataType) => (
+    render: (_text: any, record: DataType) => (
       <ApplicationButton jobOfferId={record.jobOfferId} studentId={record.studenttId} faculty={record.faculty} />
     ),
     width: "15%",
